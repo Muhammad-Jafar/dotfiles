@@ -1,0 +1,128 @@
+@import "../../../../../../../.config/omarchy/current/theme/walker.css";
+
+* {
+  all: unset;
+}
+
+* {
+  font-family: monospace;
+  font-size: 18px;
+  color: @text;
+}
+
+scrollbar {
+  opacity: 0;
+}
+
+.normal-icons {
+  -gtk-icon-size: 16px;
+}
+
+.large-icons {
+  -gtk-icon-size: 32px;
+}
+
+.box-wrapper {
+  background: alpha(@base, 0.95);
+  padding: 16px;
+  border: 2px solid @border;
+  border-radius: 16px;
+}
+
+.preview-box {
+}
+
+.box {
+}
+
+.search-container {
+  background: @base;
+  padding: 12px;
+  border-radius:10px;
+}
+
+.input placeholder {
+  opacity: 0.8;
+}
+
+.input {
+}
+
+.input:focus,
+.input:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.content-container {
+}
+
+.placeholder {
+}
+
+.scroll {
+}
+
+.list {
+}
+
+child,
+child > * {
+}
+
+child:hover .item-box {
+}
+
+child:selected .item-box {
+}
+
+child:hover .item-box,
+child:selected .item-box {
+ //color: @selected-text;
+ background: darker(alpha(@background, 0.6));
+}
+
+//child:selected .item-box * {
+// color: @selected-text;
+// background: darker(alpha(@background, 0.5));
+//}
+
+.item-box {
+  border-radius: 8px;
+  padding: 8px;
+  padding-left: 12px;
+}
+
+.item-text-box {
+  //all: unset;
+  padding: 8px 0;
+}
+
+.item-text {
+}
+
+.item-subtext {
+  font-size: 0px;
+  min-height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.item-image {
+  margin-right: 14px;
+  -gtk-icon-transform: scale(0.9);
+}
+
+.current {
+  font-style: italic;
+}
+
+.keybind-hints {
+  background: @background;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.preview {
+  background: @background;
+}

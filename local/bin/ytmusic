@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# =========================================
+# ytmusic: Download audio-only from YouTube
+# =========================================
+
+TARGET_DIR="$1"
+URL="$2"
+
+mkdir -p "$TARGET_DIR"
+
+yt-dlp \
+  -f bestaudio/best \
+  -x --audio-format flac \
+  --add-metadata \
+  --write-thumbnail \
+  --sponsorblock-remove all \
+  --yes-playlist \
+  -o "%(artis)s - %(title)s.%(ext)s" \
+  -P "$TARGET_DIR" \
+  "$URL"
+
+if systemctl --quiet is-active mpd; then
+  echo "Update MPD database .."
+  mpc update >/dev/null
+fi
+
+echo "All done!"
+echo "Your playlist available at: $TARGET_DIR"
