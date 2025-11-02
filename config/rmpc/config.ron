@@ -6,7 +6,10 @@
     password: None,
     theme: None,
     cache_dir: None,
-    on_song_change: None,
+    on_song_change: [
+      "~/.config/rmpc/notify",
+      "~/.config/rmpc/playcount"
+      ],
     volume_step: 5,
     max_fps: 30,
     scrolloff: 0,
@@ -26,6 +29,14 @@
         vertical_align: Center,
         horizontal_align: Center,
     ),
+    song_table_format: [
+      (
+        prop: (kind: Sticker("playCount"), default:(kind: Text("0"))),
+        width: "9",
+        alignment: Right,
+        label: "Playcount"
+      ),
+    ],
     keybinds: (
         global: {
             ":":       CommandMode,
