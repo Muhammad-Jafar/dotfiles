@@ -1,0 +1,8 @@
+# General performance tuning
+-Xmx6144m
+
+# Wayland support
+-D_JETBRAINS_ENABLE_WAYLAND=1
+-Dawt.toolkit.name=WLToolkit
+-Dsun.java2d.opengl=true
+-Dswing.bufferPerWindow=true
