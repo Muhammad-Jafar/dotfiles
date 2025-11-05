@@ -1,2 +1,2 @@
 # Directories
-alias c='clear'
+alias c='clear && ls'
