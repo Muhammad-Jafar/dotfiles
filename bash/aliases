@@ -1,2 +1,3 @@
 # Directories
 alias c='clear && ls'
+alias ca='clear'
