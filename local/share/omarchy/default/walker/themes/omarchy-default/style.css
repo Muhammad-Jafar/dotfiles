@@ -78,14 +78,8 @@ child:selected .item-box {
 
 child:hover .item-box,
 child:selected .item-box {
- //color: @selected-text;
- background: darker(alpha(@background, 0.5));
+ background: darker(alpha(@background, 0.4));
 }
-
-//child:selected .item-box * {
-// color: @selected-text;
-// background: darker(alpha(@background, 0.5));
-//}
 
 .item-box {
   border-radius: 8px;
@@ -94,7 +88,6 @@ child:selected .item-box {
 }
 
 .item-text-box {
-  //all: unset;
   padding: 8px 0;
 }
 
