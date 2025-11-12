@@ -1,0 +1,31 @@
+# Dynamic theme colors
+config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
+
+# Font
+font-family = "CaskaydiaMono Nerd Font Propo"
+font-style = Regular
+font-size = 13
+
+# Window
+window-theme = ghostty
+window-padding-x = 8
+window-padding-y = 8
+confirm-close-surface=false
+resize-overlay = never
+gtk-toolbar-style = flat
+
+# Cursor styling
+cursor-style = "block_hollow"
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+#Backgroud
+background-opacity = 0.725
+background-blue = true
+
+# Keyboard bindings
+keybind = shift+insert=paste_from_clipboard
+keybind = control+insert=copy_to_clipboard
+
+# SSH session terminfo
+shell-integration-features = ssh-env
