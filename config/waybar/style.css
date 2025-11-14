@@ -6,11 +6,11 @@
   border: none;
   min-height: 0;
   font-family: 'CaskaydiaMono Nerd Font Propo';
-  font-size: 17px;
+  font-size: 16px;
 }
 
 window#waybar {
- background-color: @background;
+ background-color: alpha(@background, 0.625);
 }
 
 .modules-left {
@@ -59,10 +59,10 @@ window#waybar {
 }
 
 tooltip {
-  background-color: @background;
+  background-color: alpha(@background, 0.625);
   padding: 0;
-  border: 2px solid @border-color;
-  border-radius: 12px;
+  border: 1px solid alpha(@border-color, 0.625);
+  border-radius: 8px;
   text-shadow:none;
 }
 
