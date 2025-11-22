@@ -1,6 +1,12 @@
 # Directories
 alias c='clear && ls'
 alias ca='clear'
+alias ct='lta'
+
+# working with dev tools
+alias ld='lazydocker'
+alias lg='lazygit'
+alias gb='gobang'
 
 # support for qt-wayland
 export QT_QPA_PLATFORM=wayland
