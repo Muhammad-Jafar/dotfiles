@@ -78,7 +78,7 @@ child:selected .item-box {
 
 child:hover .item-box,
 child:selected .item-box {
- background: darker(alpha(@background, 0.4));
+ background: darker(alpha(@background, 0.325));
 }
 
 .item-box {

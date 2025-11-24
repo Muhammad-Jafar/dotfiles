@@ -9,8 +9,8 @@ window {
 }
 
 label {
-  font-family: 'CaskaydiaMono Nerd Font Propo';
-  font-size: 11pt;
+  font-family: 'JetBrainsMono Nerd Font Propo';
+  font-size: 12pt;
 
   color: @label;
 }
