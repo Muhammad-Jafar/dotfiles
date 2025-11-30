@@ -38,7 +38,8 @@ deleted    = ""
 
 [python]
 symbol = "󱔎 "
-pyenv_prefix = ""
+pyenv_prefix = "uv"
+pyenv_version_name = true
 
 [php]
 

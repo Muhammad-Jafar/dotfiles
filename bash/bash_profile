@@ -17,3 +17,19 @@ export QT_STYLE_OVERRIDE=kvantum
 
 # MPD daemon start (if no other user instance exists)
 [ ! -s ~/.config/mpd/pid ] && mpd
+
+# clock-tui
+alias ts='tclock -s 2 stopwatch'
+alias tt='tclock -s 2 clock'
+
+# bashrc
+alias rb='source ~/.bashrc'
+
+# activate python project
+alias sa='source ~/PycharmProjects/RP-CDiL/.venv/bin/activate'
+
+# uv path
+. "$HOME/.local/share/../bin/env"
+
+# intelli shell
+eval "$(intelli-shell init bash)"

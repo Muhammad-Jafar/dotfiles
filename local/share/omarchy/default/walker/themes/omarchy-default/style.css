@@ -36,7 +36,7 @@ scrollbar {
 }
 
 .search-container {
-  background: alpha(@base, 0.425);
+  background: darker(alpha(@base, 0.725));
   padding: 16px;
   border-radius:10px;
 }
@@ -78,7 +78,7 @@ child:selected .item-box {
 
 child:hover .item-box,
 child:selected .item-box {
- background: darker(alpha(@background, 0.325));
+ background: darker(alpha(@background, 0.725));
 }
 
 .item-box {
