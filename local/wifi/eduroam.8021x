@@ -1,0 +1,9 @@
+[Security]
+EAP-Method=TTLS
+EAP-Identity=23917026@students.uii.ac.id
+EAP-TTLS-Phase2-Method=MSCHAPV2
+EAP-TTLS-Phase2-Identity=23917026@students.uii.ac.id
+EAP-TTLS-Phase2-Password=#Jafar131
+
+[Settings]
+Autoconnect=true

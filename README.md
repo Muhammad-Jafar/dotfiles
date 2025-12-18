@@ -19,6 +19,7 @@ This repository provide stored custom configuration files for Arch/Omarchy with 
 
 - [mapscii](https://github.com/rastapasta/mapscii?ref=terminaltrove) - Maps viewer tui based
 - [daylight](https://github.com/jbreckmckye/daylight?ref=terminaltrove) - tracking sunrise and sunset times
+- [clock-tui](https://github.com/race604/clock-tui) - windows 11 clock app-like for terminal
 - [intelli-shell](https://github.com/lasantosr/intelli-shell) - IntelliSense-like but for shells
 - [fastfetch](https://github.com/aristocratos/btop?ref=terminaltrove) - neofetch-like system information tool
 - [btop](https://github.com/fastfetch-cli/fastfetch?ref=terminaltrove) - htop-like resources monitor
