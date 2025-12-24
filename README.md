@@ -43,3 +43,4 @@ This repository provide stored custom configuration files for Arch/Omarchy with 
 - [nbpreview.yazi](https://github.com/AnirudhG07/nbpreview.yazi) - Jupyter notebooks viewer
 - [git.yazi](https://github.com/yazi-rs/plugins/tree/main/git.yazi) - Git status viewer
 - [mount.yazi](https://github.com/yazi-rs/plugins/tree/main/mount.yazi) - Disk mounting
+- [toggle-pane.yazi](https://github.com/yazi-rs/plugins/tree/main/toggle-pane.yazi) - show or hide preview pane

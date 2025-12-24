@@ -4,34 +4,27 @@
   color: @foreground;
 
   border: none;
-  border-radius: 0 0 12px 12px;
+  border-radius: 8px;
   min-height: 0;
   font-family: 'CaskaydiaMono Nerd Font Propo';
-  font-size: 15px;
+  font-size: 16px;
 }
 
 window#waybar {
-  background-color: transparent;
-}
-
-#waybar > box {
   background-color: alpha(@background, 0.825);
-  transition-property: background-color;
-  transition-duration: .5s;
-  border-bottom: 2px solid alpha(@background, 0.825);
 }
 
 .modules-left {
-  margin-left: 16px;
+  margin-left: 10px;
 }
 
 .modules-right {
-  margin-right: 16px;
+  margin-right: 10px;
 }
 
 #custom-omarchy {
-  margin-right: 16px;
-  margin-left: 4px;
+  margin-left: 8px;
+  margin-right: 10px;
 }
 
 #workspaces button {
@@ -44,6 +37,10 @@ window#waybar {
   opacity: 0.5;
 }
 
+#window {
+  margin-left: 10px;
+}
+
 #cpu,
 #custom-screenrecording-indicator,
 #custom-update {
@@ -52,31 +49,31 @@ window#waybar {
 }
 
 #tray {
-  margin-right: 8px;
-  margin-left: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #custom-expand-icon {
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 #bluetooth {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #network {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #pulseaudio {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 #battery {
-  margin-left: 8px;
-  margin-right: 4px;
+  margin-left: 10px;
+  margin-right: 8px;
 }
 
 tooltip {
