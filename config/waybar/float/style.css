@@ -1,0 +1,120 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+  color: @foreground;
+
+  border: none;
+  border-radius: 8px;
+  min-height: 0;
+  font-family: 'CaskaydiaMono Nerd Font Propo';
+  font-size: 16px;
+}
+
+window#waybar {
+  background-color: alpha(@background, 0.825);
+}
+
+.modules-left {
+  margin-left: 10px;
+}
+
+.modules-right {
+  margin-right: 10px;
+}
+
+#custom-omarchy {
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+#workspaces button {
+  all: initial;
+  padding: 0 6px;
+  min-width: 10px;
+}
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+#window {
+  margin-left: 10px;
+}
+
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 12px;
+  margin: 0 10px;
+}
+
+#tray {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#custom-expand-icon {
+  margin-right: 10px;
+}
+
+#cpu {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#memory {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#bluetooth {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#network {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#pulseaudio {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#battery {
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+tooltip {
+  background-color: @background;
+  padding: 4px;
+  border: 2px solid alpha(@foreground, 0.325);
+  border-radius: 8px;
+  text-shadow:none;
+  font-size: 10px;
+}
+
+tooltip label {
+    color: @foreground;
+}
+#custom-update {
+  font-size: 10px;
+}
+
+#clock {
+  margin-left: 8.75px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 10px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
