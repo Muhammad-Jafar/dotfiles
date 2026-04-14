@@ -7,16 +7,16 @@ TERM = "xterm-256color"
 normal = { family = "JetBrainsMono Nerd Font Propo" }
 bold = { family = "JetBrainsMono Nerd Font Propo" }
 italic = { family = "JetBrainsMono Nerd Font Propo" }
-size = 11
+size = 13
 
 [scrolling]
-multiplier = 5
+multiplier = 7
 
 [window]
 padding.x = 8
 padding.y = 8
 decorations = "None"
-opacity = 0.725
+opacity = 0.625
 blur = false           # override by hyprland blur
 dynamic_padding = true
 
@@ -31,4 +31,8 @@ thickness = 0.25
 bindings = [
   { key = "Insert", mods = "Shift", action = "Paste" },
   { key = "Insert", mods = "Control", action = "Copy" },
+  { key = "Return", mods = "Shift", chars = "\u001B\r" },
 ]
+
+[terminal]
+osc52 = "CopyPaste"

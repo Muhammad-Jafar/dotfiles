@@ -28,6 +28,9 @@ alias rb='source ~/.bashrc'
 # activate python project
 alias sa='source ~/PycharmProjects/RP-CDiL/.venv/bin/activate'
 
+# move to thesis project
+alias tp='cd ~/PycharmProjects/RP-CDiL/'
+
 # uv path
 . "$HOME/.local/share/../bin/env"
 

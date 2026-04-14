@@ -20,5 +20,5 @@ prepend_previewers = [
 ]
 
 # disable all preset of previewers
-preloaders = []
+#preloaders = []
 #previewers = []

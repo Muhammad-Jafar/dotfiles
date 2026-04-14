@@ -1,8 +1,7 @@
-[[mgr.prepend_keymap]]
-on  = "M"
-run = "plugin mount"
+[mgr]
+prepend_keymap = [
+  { on =["T"], run = "plugin toggle-pane min-preview", desc = "show or hide the preview pane" },
+  { on =["M"], run = "plugin mount", desc = "Select disk partition then mount" },
+  # { on = ["D"], run = "plugin gvfs -- select-then-mount --jump", desc = "select device, mount then jump into it" },
 
-[[mgr.prepend_keymap]]
-on   = "T"
-run  = "plugin toggle-pane min-preview"
-desc = "Show or hide the preview pane"
+]

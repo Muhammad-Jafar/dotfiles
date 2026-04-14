@@ -6,11 +6,11 @@
   border: none;
   min-height: 0;
   font-family: 'CaskaydiaMono Nerd Font Propo';
-  font-size: 16px;
+  font-size: 17px;
 }
 
 window#waybar {
-  background-color: alpha(@background, 0.825);
+  background-color: alpha(@background, 0.625);
 }
 
 .modules-left {
@@ -56,6 +56,16 @@ window#waybar {
   margin-right: 10px;
 }
 
+#cpu {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#memory {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 #bluetooth {
   margin-left: 10px;
   margin-right: 10px;
@@ -70,6 +80,7 @@ window#waybar {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 #battery {
   margin-left: 10px;
   margin-right: 8px;
@@ -80,13 +91,14 @@ tooltip {
   padding: 4px;
   border: 2px solid alpha(@foreground, 0.325);
   border-radius: 8px;
-  text-shadow:none;
+  text-shadow: none;
   font-size: 10px;
 }
 
 tooltip label {
-    color: @foreground;
+  color: @foreground;
 }
+
 #custom-update {
   font-size: 10px;
 }
